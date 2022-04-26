@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         ></TextView>
+
     <Button
+        android:id="@+id/btnstart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnstart"
         android:text="start"
-        android:textSize="25sp"
-        ></Button>
+        android:textSize="25sp"></Button>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,5 +27,10 @@
         android:text="stop"
         android:textSize="25sp"
         ></Button>
+
+    <tw.edu.pu.gm.myapplication_0426.MySurfaceView
+        android:id="@+id/mysv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
