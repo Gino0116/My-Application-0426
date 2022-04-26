@@ -18,14 +18,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnstart"
         android:text="start"
-        android:textSize="24sp"
+        android:textSize="25sp"
         ></Button>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnstop"
         android:text="stop"
-        android:textSize="24sp"
+        android:textSize="25sp"
         ></Button>
 
 </LinearLayout>
